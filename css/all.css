@@ -60,6 +60,26 @@ body{
     margin: 0 auto;
 }
 
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 /* 字級通用樣式 */
 
 .headings-h1{
