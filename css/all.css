@@ -250,6 +250,10 @@ line-height: 1.5;
 }
 
 /* 間距 */
+.p-12{
+    padding: 12px;
+}
+
 .p-32{
     padding: 32px;
 }
@@ -257,6 +261,11 @@ line-height: 1.5;
 .py-8{
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.py-12{
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .pr-8{
@@ -279,6 +288,14 @@ line-height: 1.5;
     padding-bottom: 64px;
 }
 
+.ml-auto{
+    margin-left: auto;
+}
+
+.mr-48{
+    margin-right: 48px;
+}
+
 .mb-4{
     margin-bottom: 4px;
 }
@@ -297,6 +314,14 @@ line-height: 1.5;
 
 .mb-48{
     margin-bottom: 48px;
+}
+
+.gap-40{
+    gap: 40px;
+}
+
+.gap-48{
+    gap: 48px;
 }
 
 /* 圓角 */
