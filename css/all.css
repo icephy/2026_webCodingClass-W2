@@ -15,12 +15,15 @@
 /* 顏色變數 */
 :root{
     --primary-100: #F5FEE7;
+    --primary-200: #E8FEC5;
+    --primary-300: #C0FA73;
     --primary-400: #57A203;
     --neutral-0: #FFFFFF;
     --neutral-100: #F8F9FA;
     --neutral-300: #DEE2E6;
     --neutral-600: #6C757D;
     --neutral-900: #212529;
+    --danger-300: #D74F4F;
 }
 
 /* 標籤基本樣式 */
@@ -35,9 +38,11 @@ img{
 }
 
 a{
-    color: var(--primary-400);
-    text-underline-offset: 4px;
+    color: var(--primary-900);
+    text-decoration: none;
     display: block;
+    font-weight: 500;
+    /* 判斷如何設置 a 的 css 來減少重工 */
 }
 
 body{
@@ -46,7 +51,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.05em;
     color: var(--neutral-900);
-    /* 字距為什麽是用em */
 }
 
 /* 容器通用樣式 */
@@ -122,6 +126,10 @@ line-height: 1.5;
 
 .text-primary-900{
     color: var(--neutral-900);
+}
+
+.text-danger{
+    color: var(--danger-300);
 }
 
 /* 文字對齊 */
@@ -204,7 +212,7 @@ line-height: 1.5;
     border-left: 1px solid var(--neutral-900);
 }
 
-/* page */
+/* page
 .header{
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
     background-repeat: no-repeat;
@@ -233,4 +241,4 @@ line-height: 1.5;
 .bi{
     padding-right: 8px;
     vertical-align: bottom;
-}
+} */
