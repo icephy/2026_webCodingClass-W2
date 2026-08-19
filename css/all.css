@@ -245,6 +245,10 @@ line-height: 1.5;
     background-color: var(--primary-100);
 }
 
+.bg-primary-200{
+    background-color: var(--primary-200);
+}
+
 .bg-neutral-100{
     background-color: var(--neutral-100);
 }
@@ -266,6 +270,15 @@ line-height: 1.5;
 .py-12{
     padding-top: 12px;
     padding-bottom: 12px;
+}
+
+.py-24{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.pt-32{
+    padding-top: 32px;
 }
 
 .pr-8{
@@ -290,6 +303,10 @@ line-height: 1.5;
 
 .ml-auto{
     margin-left: auto;
+}
+
+.mr-24{
+    margin-right: 24px;
 }
 
 .mr-48{
@@ -330,6 +347,10 @@ line-height: 1.5;
 }
 
 /* border */
+
+.border-top{
+    border-top: 1px solid var(--neutral-300);
+}
 
 .border-bottom{
     border-bottom: 1px solid var(--neutral-300);
@@ -396,4 +417,9 @@ line-height: 1.5;
     cursor: pointer;
     border: none;
     background-color: transparent;
+}
+
+.btn-dark{
+    background-color: var(--neutral-900);
+    color: var(--neutral-0);
 }
