@@ -21,6 +21,7 @@
     --neutral-0: #FFFFFF;
     --neutral-100: #F8F9FA;
     --neutral-300: #DEE2E6;
+    --neutral-500: #ADB5BD;
     --neutral-600: #6C757D;
     --neutral-900: #212529;
     --danger-300: #D74F4F;
@@ -207,8 +208,9 @@ body{
 }
 
 .paragraph-sm{
-font-size: 14px;
-line-height: 1.5;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .label-md{
@@ -218,9 +220,6 @@ line-height: 1.5;
 }
 
 /* 文字顏色通用樣式 */
-.text-neutral-0{
-    color: var(--neutral-0);
-}
 
 .text-primary-400{
     color: var(--primary-400);
@@ -228,6 +227,18 @@ line-height: 1.5;
 
 .text-primary-900{
     color: var(--neutral-900);
+}
+
+.text-neutral-0{
+    color: var(--neutral-0);
+}
+
+.text-neutral-500{
+    color: var(--neutral-500);
+}
+
+.text-neutral-600{
+    color: var(--neutral-600);
 }
 
 .text-danger{
@@ -305,6 +316,10 @@ line-height: 1.5;
     margin-left: auto;
 }
 
+.mr-8{
+    margin-right: 8px;
+}
+
 .mr-24{
     margin-right: 24px;
 }
@@ -315,6 +330,10 @@ line-height: 1.5;
 
 .mb-4{
     margin-bottom: 4px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
 }
 
 .mb-12{
@@ -329,8 +348,20 @@ line-height: 1.5;
     margin-bottom: 24px;
 }
 
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
 .mb-48{
     margin-bottom: 48px;
+}
+
+.gap-8{
+    gap: 8px;
 }
 
 .gap-40{
@@ -422,4 +453,8 @@ line-height: 1.5;
 .btn-dark{
     background-color: var(--neutral-900);
     color: var(--neutral-0);
+}
+
+.btn-light{
+    border: 1px solid var(--neutral-900);
 }

@@ -12,3 +12,7 @@
     background-color: var(--primary-300);
     font-weight: 500;
 }
+
+.product-action .bi{
+    padding-right: 8px;
+}
